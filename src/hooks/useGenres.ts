@@ -9,7 +9,6 @@ export interface Genre {
     image_background: string;
 }
 
-// const useGenres = () => useData<Genre>('/genres');
 const useGenres = () => useQuery({
     queryKey: ['genres'],
     queryFn: () => 
