@@ -4,7 +4,7 @@ import { MdPhoneIphone } from "react-icons/md";
 import { SiNintendoswitch } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
 import { HStack, Icon } from "@chakra-ui/react";
-import { Platform } from "../entities/Platform";
+import Platform from "../entities/Platform";
 import { IconType } from "react-icons/lib/esm/iconBase";
 import { DiAndroid } from "react-icons/di";
 

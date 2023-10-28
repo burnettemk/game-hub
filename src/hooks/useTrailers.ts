@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import APICLient from "../services/api-client";
-import { Trailer } from "../entities/Trailer";
+import Trailer from "../entities/Trailer";
 
 const useTrailers = (gameId: number) => {
     // This call is responsible for getting the data from the backend using the correct endpoints
