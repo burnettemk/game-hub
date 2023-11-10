@@ -9,7 +9,7 @@ export interface FetchResponse<T> {
 const axiosInstance = axios.create({
     baseURL: 'https://api.rawg.io/api',
     params: {
-        key: '8a7e02d9201040799138c906fb23721f'
+        key: import.meta.env.VITE_gamehubAuthToken  //Does not work
     }
 })
 
